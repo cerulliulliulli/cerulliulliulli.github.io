@@ -5,3 +5,13 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.slider {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  overflow: hidden;
+  background-color: #000; color: #FFF;
+  transition: all 15s;
+}
