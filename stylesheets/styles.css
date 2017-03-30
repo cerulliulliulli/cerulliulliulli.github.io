@@ -7,12 +7,12 @@ html {
 }
 
 img {
-    width:200px;
-    position:fixed;
-    top:100%;
-    opacity:0;
-    animation:load_up 15s forwards;
-    -webkit-animation:load_up 15s forwards;
+    position: absolute;
+    vertical-align: middle;
+    top: 100%;
+    opacity: 0;
+    animation: load_up 30s forwards;
+    -webkit-animation: load_up 30s forwards;
 }
 
 @keyframes load_up{
