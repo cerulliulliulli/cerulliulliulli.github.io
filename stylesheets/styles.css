@@ -6,7 +6,7 @@ html {
   background-size: cover;
 }
 
-.slider {
+img {
   position: absolute;
   top: 0;
   overflow: hidden;
