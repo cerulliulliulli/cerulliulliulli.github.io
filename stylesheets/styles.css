@@ -6,7 +6,23 @@ html {
   background-size: cover;
 }
 
-div.slide-up img {
-  animation: 15s slide-up;
-  margin-top:0%;
+img {
+    width:200px;
+    position:fixed;
+    top:100%;
+    opacity:0;
+    animation:load_up 15s forwards;
+    -webkit-animation:load_up 15s forwards;
+}
+
+@keyframes load_up{
+    from{opacity:0;top:100%}
+    to{opacity:1;top:0%;}
+    
+}
+
+@-webkit-keyframes load_up{
+    from{opacity:0;top:100%}
+    to{opacity:1;top:0%;}
+    
 }
