@@ -7,7 +7,7 @@ html {
 }
 
 img {
-    position: absolute;
+    position: fixed;
     vertical-align: middle;
     top: 100%;
     opacity: 0;
