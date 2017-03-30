@@ -1,6 +1,6 @@
 $(function(){
 
-$(".mydiv").addClass("active");
+$(".mydiv").addClass("slide-up");
 console.log($(".mydiv"));
 
 });
