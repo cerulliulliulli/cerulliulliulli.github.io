@@ -10,6 +10,6 @@ html {
   position: absolute;
   top: 0;
   overflow: hidden;
-  background-image: url();
+  background-image: url(https://raw.githubusercontent.com/cerulliulliulli/cerulliulliulli.github.io/master/dva_solo.png);
   transition: all 15s;
 }
