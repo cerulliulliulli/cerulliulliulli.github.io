@@ -8,10 +8,8 @@ html {
 
 .slider {
   position: absolute;
-  width: 100vw;
-  height: 100vh;
   top: 0;
   overflow: hidden;
-  background-color: #000; color: #FFF;
+  background-image: url();
   transition: all 15s;
 }
