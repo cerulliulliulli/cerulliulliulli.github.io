@@ -6,10 +6,7 @@ html {
   background-size: cover;
 }
 
-img {
-  position: absolute;
-  top: 0;
-  overflow: hidden;
-  background-image: url(https://raw.githubusercontent.com/cerulliulliulli/cerulliulliulli.github.io/master/dva_solo.png);
-  transition: all 15s;
+div.slide-up img {
+  animation: 15s slide-up;
+  margin-top:0%;
 }
