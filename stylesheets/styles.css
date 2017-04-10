@@ -13,9 +13,9 @@ img {
     left: 50%;
     bottom: 0%;
     opacity: 0;
-    animation: load_up forwards 90s;
+    animation: load_up forwards 60s;
     animation-timing-function: ease-in-out;
-    -webkit-animation: load_up forwards 90s;
+    -webkit-animation: load_up forwards 60s;
     -webkit-animation-timing-function: ease-in-out;
 }
 
