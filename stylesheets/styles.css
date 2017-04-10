@@ -8,8 +8,9 @@ html {
 
 img {
     position: fixed;
-    margin: auto;
-    width: 50%;
+    margin: 0;
+    margin-right: -50%;
+    left: 50%;
     bottom: 0%;
     opacity: 0;
     animation: load_up 90s forwards;
