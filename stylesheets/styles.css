@@ -8,6 +8,8 @@ html {
 
 img {
     position: fixed;
+    margin: auto;
+    width: 50%;
     bottom: 0%;
     opacity: 0;
     animation: load_up 30s forwards;
