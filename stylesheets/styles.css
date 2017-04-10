@@ -19,13 +19,13 @@ img {
 }
 
 @keyframes load_up{
-    from {opacity: 0; top: 100%}
+    from {opacity: 0; top: 100%; animation-timing-function: ease-in-out;}
     to {opacity: 1; top: 0%;}
     
 }
 
 @-webkit-keyframes load_up{
-    from {opacity: 0; top: 100%}
+    from {opacity: 0; top: 100%; animation-timing-function: ease-in-out;}
     to {opacity: 1; top: 0%;}
     
 }
