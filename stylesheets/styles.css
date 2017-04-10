@@ -18,6 +18,20 @@ img {
     -webkit-animation-timing-function: ease-in-out;
 }
 
+h1 {
+    font-size: 88px;
+    font-weight: normal;
+    color: #FFF;
+    margin: 0;
+    padding: 90px 0 25px 0;
+    transform-origin: 50% 100%;
+    text-shadow: 2px 2px 2px #333;
+     
+    animation-duration: .3s;
+    animation-name: fadeAndScale;
+    animation-timing-function: cubic-bezier(.71,.55,.62,1.57);
+}
+
 @keyframes load_up{
     from {opacity: 0; top: 100%; animation-timing-function: ease-in-out;}
     to {opacity: 1; top: 0%;}
@@ -28,4 +42,15 @@ img {
     from {opacity: 0; top: 100%; animation-timing-function: ease-in-out;}
     to {opacity: 1; top: 0%;}
     
+}
+
+@keyframes fadeAndScale {
+    from {
+        opacity: 0;
+        transform: scale(.9, .9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
 }
