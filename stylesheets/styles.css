@@ -27,8 +27,7 @@ h1 {
     transform-origin: 50% 100%;
     text-shadow: 2px 2px 2px #333;
      
-    animation-duration: 40s;
-    animation-name: fadeAndScale;
+    animation: fadeAndScale 40s;
     animation-timing-function: cubic-bezier(.71,.55,.62,1.57);
 }
 
