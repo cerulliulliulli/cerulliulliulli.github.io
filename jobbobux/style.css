@@ -1,0 +1,16 @@
+h1 {
+    font-size: 1000%;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+div {
+    font-size: 200%;
+    text-align: center;
+}
